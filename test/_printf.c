@@ -34,7 +34,8 @@ case '%':
 _putchar('%'), num++;
 break;
 case 'i': case 'd':
-num += fun_integer(arguments); break;
+num += fun_integer(arguments);
+break;
 default:
 _putchar('%'), _putchar(*p), num += 2;
 }
