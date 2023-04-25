@@ -28,9 +28,9 @@ case 's': num += fun_string(arguments);
 break;
 case 'c': num += fun_character(arguments);
 break;
-case '%': _putchar '%'), num++;
+case '%': _putchar '%', num++;
 break;
-case 'i': case d: num += fun_integer(arguments); break;
+case 'i': case 'd': num += fun_integer(arguments); break;
 default: _putchar( '%' ), _putchar(*p), num += 2;
 }
 }
@@ -39,3 +39,4 @@ _putchar(*p), num++;
 }
 va_end(arguments);
 return (num);
+}
